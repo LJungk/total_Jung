@@ -9,7 +9,7 @@
 	
 	<mvc:annotation-driven />
 	<mvc:default-servlet-handler />
-	<context:component-scan base-package="org.itbank.app" />
+	<context:component-scan base-package="org.itbank.app.controller" />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
